@@ -1,0 +1,41 @@
+FEEDBACK:
+
+Good simulation of browser behavior via the Navigator class. 
+
+
+Efficient implementation of clearing the stack. 
+    Make sure to keep track of changes in the state of the StackList 
+	instance via a instance variable such as modCount. In this way 
+	when iterator's next() method is called, we can check that the 
+	Iterator is in a valid state.
+	
+
+In pop() method check when user pops from an empty
+   stack. Throw an exception which the user has to
+   handle (Note: here the user is the Navigator class).
+   
+   For example:
+    public E pop() throws NoSuchElementException
+    {
+        if(top == null) // Note: A method call adds unnecessary overhead.
+        {
+            throw new NoSuchElementException();
+        }
+        else
+        {
+                Node temp = top;
+        
+-1 class StackList does not initialize required instance variable "name".
+   See the project description:
+   "The toString() method should include the name of the stack passed in by the 
+   Navigator class in addition to the number of links in the stack."
+   
+   Set the argument of the constructor to the name of the stack. 
+   Otherwise, it is difficult to identify the stack you are displaying.
+   Also see sample output in project description.
+
+
++0.5 Good testing of your implementation especially with creative link names!
+	
+-Bita.
+

@@ -1,0 +1,26 @@
+link news.google.com
+link www.educationnews.org
+link www.nytimes.com
+link www.nytimes.com/pages/education
+back
+back
+back
+back
+back
+forward
+forward
+forward
+forward
+forward
+forward
+link www.facebook.com
+link www.instagram.com
+forward
+forward
+link www.reddit.com
+back
+contains www.reddit.com
+contains www.facebook.com
+link www.nytimes.com
+contains www.reddit.com
+contains www.facebook.com
